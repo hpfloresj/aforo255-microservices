@@ -33,6 +33,6 @@ docker run --name aforo255-postgres-invoice -v c:/docker/aforo255-posgresql:/var
 
 Mongo
 ```
-docker run --name aforo255-mongo-transaction -v c:/docker/aforo255-mongo:/data/db -e MONGO_INITDB_ROOT_USERNAME=adminn -e MONGO_INITDB_ROOT_PASSWORD=1234 --network aforo255-test  -d mongo
+docker run --name aforo255-mongo-transaction -v c:/docker/aforo255-mongo:/data/db -e MONGO_INITDB_ROOT_USERNAME=adminn -e MONGO_INITDB_ROOT_PASSWORD=1234 -p 27017:27017 --network aforo255-test  -d mongo
 ```
 
