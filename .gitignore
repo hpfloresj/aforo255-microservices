@@ -1,0 +1,39 @@
+### Maven ###
+log/
+target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.classpath
+.settings/
+.svn/
+bin/
+
+### IntelliJ IDEA ###
+.idea/
+*.ipr
+*.iml
+*.iws
+.idea
+out/
+.DS_Store
+/bootstrap
+/dependencies.xml
+.java-version
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Mac ###
+.DS_Store
